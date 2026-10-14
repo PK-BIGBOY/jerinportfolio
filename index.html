@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mst Jerin Chowdhury | Student</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500&family=Hind+Siliguri:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff1f8;--ink:#2a1030;--mute:#7a5a82;--c1:#db2777;--c2:#8b5cf6;--panel:#ffffffb8;--line:#2a103022;--dot:219,39,119;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#150b21;--ink:#fdeaff;--mute:#c4a6d6;--c1:#ff7ac6;--c2:#b794f6;--panel:#ffffff0f;--line:#ffffff22;--dot:255,122,198}}
+:root[data-theme="dark"]{--bg:#150b21;--ink:#fdeaff;--mute:#c4a6d6;--c1:#ff7ac6;--c2:#b794f6;--panel:#ffffff0f;--line:#ffffff22;--dot:255,122,198}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.75 'Hind Siliguri',system-ui,sans-serif;overflow-x:hidden}
+#bg{position:fixed;inset:0;width:100%;height:100%;z-index:0}
+.wrap{max-width:1100px;margin:0 auto;padding:0 22px;position:relative;z-index:1}
+nav{position:sticky;top:0;z-index:10;display:flex;justify-content:space-between;align-items:center;padding:calc(14px + env(safe-area-inset-top,0px)) 22px 14px;backdrop-filter:blur(14px);background:var(--panel);border-bottom:1px solid var(--line)}
+.logo{font:500 17px 'JetBrains Mono',monospace;color:var(--c1)}
+nav a{color:var(--ink);text-decoration:none;margin-left:22px;font-size:15px}nav a:hover{color:var(--c1)}
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:center;min-height:calc(100vh - 60px);padding:30px 0}
+.hi{font:400 15px 'JetBrains Mono',monospace;color:var(--c1)}
+h1{font:700 clamp(40px,7vw,80px)/1.04 'Space Grotesk',sans-serif;margin:12px 0 10px;letter-spacing:-.03em}
+h1 span{background:linear-gradient(90deg,var(--c1),var(--c2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.role{font:500 clamp(18px,2.6vw,24px) 'JetBrains Mono',monospace;min-height:1.6em}
+.role:after{content:"▍";color:var(--c1);animation:bl 1s steps(1) infinite}
+@keyframes bl{50%{opacity:0}}
+.sub{color:var(--mute);max-width:460px;margin:12px 0 28px}
+.btn{display:inline-block;margin-right:10px;padding:13px 28px;border-radius:12px;text-decoration:none;font-weight:600;transition:.25s}
+.b1{background:linear-gradient(90deg,var(--c1),var(--c2));color:#fff;box-shadow:0 10px 30px rgba(var(--dot),.35)}
+.b2{border:1px solid var(--line);color:var(--ink)}
+.btn:hover{transform:translateY(-4px)}
+.scene{perspective:1100px;height:440px;display:grid;place-items:center;position:relative}
+.stage{transform-style:preserve-3d;transition:transform .15s}
+.term{width:min(340px,86vw);background:#1d0f2e;border:1px solid #ffffff2a;border-radius:16px;box-shadow:0 40px 80px #0008,0 0 60px rgba(var(--dot),.25);transform:translateZ(40px);animation:fl 6s ease-in-out infinite alternate;color:#d6e2ff}
+.term .bar{display:flex;gap:7px;padding:12px 14px;border-bottom:1px solid #ffffff1a}
+.term .bar i{width:11px;height:11px;border-radius:50%;background:#ff5f57}.term .bar i:nth-child(2){background:#febc2e}.term .bar i:nth-child(3){background:#28c840}
+.term pre{margin:0;padding:16px;font:400 13.5px/1.7 'JetBrains Mono',monospace;white-space:pre-wrap}
+.k{color:#c4a1ff}.s{color:#ffc2e6}.f{color:#ff7ac6}.n{color:#ffd98a}
+@keyframes fl{to{transform:translateZ(40px) translateY(-16px) rotateZ(1deg)}}
+.chip{position:absolute;padding:6px 14px;border-radius:99px;font:500 13px 'JetBrains Mono',monospace;background:var(--panel);border:1px solid var(--line);backdrop-filter:blur(8px);animation:bob 5s ease-in-out infinite alternate}
+.c-a{left:2%;top:10%;color:var(--c1)}.c-b{right:0;top:22%;color:var(--c2);animation-delay:-2s}.c-c{left:8%;bottom:8%;color:var(--c2);animation-delay:-3s}.c-d{right:6%;bottom:14%;color:var(--c1);animation-delay:-1s}
+@keyframes bob{to{transform:translateY(-22px)}}
+section{padding:90px 0 0}
+.lab{font:400 14px 'JetBrains Mono',monospace;color:var(--c1);margin:0 0 8px}
+h2{font:700 clamp(30px,5vw,46px)/1.2 'Space Grotesk','Hind Siliguri';margin:0 0 30px}
+.rv{opacity:0;transform:translateY(40px) rotateX(12deg);transition:.9s cubic-bezier(.2,.8,.2,1)}.rv.in{opacity:1;transform:none}
+.about{display:grid;grid-template-columns:1.2fr .8fr;gap:24px}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:26px;backdrop-filter:blur(12px)}
+.about p{margin:0 0 12px;color:var(--mute)}
+.st{display:grid;grid-template-columns:1fr 1fr;gap:14px;text-align:center}
+.st b{font:700 40px 'Space Grotesk';display:block;background:linear-gradient(90deg,var(--c1),var(--c2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.st span{color:var(--mute);font-size:14px}
+.tl{display:grid;gap:18px;padding-left:28px;border-left:2px solid var(--line)}.tl .box{position:relative}.tl .box:before{content:"";position:absolute;left:-37px;top:32px;width:14px;height:14px;border-radius:50%;background:linear-gradient(var(--c1),var(--c2));box-shadow:0 0 0 5px rgba(var(--dot),.22)}.tl small{font:400 13px 'JetBrains Mono',monospace;color:var(--c1)}.tl h3{margin:2px 0;font-size:21px}.tl p{margin:0;color:var(--mute);font-size:15px}.tl .now{border-color:var(--c1);box-shadow:0 0 40px rgba(var(--dot),.25)}
+.cats{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px;margin-top:20px}.cat h3{margin:0 0 14px;font-size:19px}.cat h3 span{font:400 12px 'JetBrains Mono',monospace;color:var(--c1);margin-left:10px;padding:2px 9px;border:1px solid var(--line);border-radius:99px}.chips2{display:flex;flex-wrap:wrap;gap:8px}.chips2 i{font:400 13px 'JetBrains Mono',monospace;padding:5px 12px;border-radius:99px;border:1px solid var(--line);background:rgba(var(--dot),.08);transition:.2s;cursor:default}.chips2 i:hover{border-color:var(--c1);color:var(--c1);transform:translateY(-3px)}
+.gpa{display:inline-block;margin-top:10px;font:500 13px 'JetBrains Mono',monospace;padding:3px 13px;border-radius:99px;background:linear-gradient(90deg,var(--c1),var(--c2));color:#fff}
+.ls{list-style:none;margin:0;padding:0}.ls li{padding:8px 0 8px 22px;position:relative;color:var(--mute);font-size:15px;line-height:1.55;border-bottom:1px dashed var(--line)}.ls li:last-child{border:0}.ls li:before{content:"▹";position:absolute;left:0;color:var(--c1)}.ls li b{color:var(--ink);font-weight:500}.mis{margin-top:20px;text-align:center;padding:34px 26px;font:500 clamp(17px,2.4vw,21px)/1.7 "Space Grotesk","Hind Siliguri";border-color:var(--c1);box-shadow:0 0 50px rgba(var(--dot),.18)}.mis small{display:block;font:400 13px "JetBrains Mono",monospace;color:var(--c1);margin-bottom:10px}nav>div{overflow-x:auto;white-space:nowrap;scrollbar-width:none}
+.mq{overflow:hidden;white-space:nowrap;margin:0 0 22px;padding:12px 0;border:1px solid var(--line);border-radius:14px;background:var(--panel);backdrop-filter:blur(10px)}.mq div{display:inline-block;animation:mqr 32s linear infinite;font:500 14px "JetBrains Mono",monospace;color:var(--c1)}@keyframes mqr{to{transform:translateX(-50%)}}
+.eq{display:flex;gap:5px;align-items:flex-end;height:40px;margin:0 0 14px}.eq i{width:7px;border-radius:4px;background:linear-gradient(var(--c1),var(--c2));transform-origin:bottom;animation:eqb 1s ease-in-out infinite alternate}@keyframes eqb{to{transform:scaleY(.25)}}
+.mailbox{max-width:520px;margin:0 auto;padding:24px;border:1px solid #ffffff33;border-radius:18px;background:#ffffff0a;text-align:left}.mailbox small{color:#ff7ac6;font:400 13px "JetBrains Mono",monospace}.mailbox b{display:block;font:500 clamp(15px,3.8vw,22px) "JetBrains Mono",monospace;word-break:break-all;margin:6px 0 16px;color:#fff}.mailbox input,.mailbox textarea{width:100%;margin-bottom:10px;padding:11px 14px;border-radius:10px;border:1px solid #ffffff33;background:#ffffff10;color:#fdeaff;font:inherit;resize:vertical}.mailbox input::placeholder,.mailbox textarea::placeholder{color:#fdeaff88}.mrow{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:6px}.cont button{font:inherit;cursor:pointer;margin:5px;padding:11px 22px;border:1px solid #ffffff33;border-radius:10px;background:none;color:#fdeaff;transition:.25s}.cont button:hover{background:#ff7ac6;color:#1d0f2e;border-color:#ff7ac6}
+.lk{display:inline-block;margin-top:10px;font:500 13px "JetBrains Mono",monospace;color:var(--c1);text-decoration:none;border-bottom:1px dashed var(--c1)}.lk:hover{opacity:.7}
+.orb{perspective:1000px;height:420px;display:grid;place-items:center;overflow:hidden}
+.ring{position:relative;width:130px;height:46px;transform-style:preserve-3d;animation:sp 18s linear infinite}
+.ring.r2{position:absolute;animation-duration:26s;animation-direction:reverse}
+.ring span{position:absolute;inset:0;display:grid;place-items:center;border-radius:10px;border:1px solid var(--c1);background:rgba(var(--dot),.12);font:500 14px 'JetBrains Mono',monospace;color:var(--ink)}
+.r2 span{border-color:var(--c2);background:rgba(139,92,246,.18)}
+.ring span:nth-child(1){transform:rotateY(0) translateZ(190px)}.ring span:nth-child(2){transform:rotateY(60deg) translateZ(190px)}.ring span:nth-child(3){transform:rotateY(120deg) translateZ(190px)}
+.ring span:nth-child(4){transform:rotateY(180deg) translateZ(190px)}.ring span:nth-child(5){transform:rotateY(240deg) translateZ(190px)}.ring span:nth-child(6){transform:rotateY(300deg) translateZ(190px)}
+.r2{transform:rotateZ(65deg)}
+.core{position:absolute;width:90px;height:90px;border-radius:50%;background:radial-gradient(circle at 30% 30%,#fff,var(--c1) 40%,var(--c2));box-shadow:0 0 70px rgba(var(--dot),.6);animation:pu 3s ease-in-out infinite alternate}
+@keyframes pu{to{transform:scale(1.18)}}
+@keyframes sp{to{transform:rotateX(-12deg) rotateY(360deg)}}
+.orbwrap{position:relative;display:grid;place-items:center;transform-style:preserve-3d}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;perspective:1000px}
+.card{transform-style:preserve-3d;transition:transform .2s;padding:0;overflow:hidden}
+.card .top{height:130px;background:linear-gradient(135deg,var(--c1),var(--c2));display:grid;place-items:center;font:700 44px 'Space Grotesk';color:#fff;transform:translateZ(20px)}
+.card div.in2{padding:20px 22px 24px;transform:translateZ(30px)}
+.card h3{margin:0 0 4px;font-size:21px}.card p{margin:0 0 10px;color:var(--mute);font-size:15px;line-height:1.6}
+.tg{font:400 12px 'JetBrains Mono',monospace;color:var(--c1)}
+.cont{margin:90px 0 30px;text-align:center;background:#1d0f2e;color:#fdeaff;border:1px solid #ffffff22;border-radius:22px;padding:clamp(30px,6vw,60px);box-shadow:0 0 80px rgba(var(--dot),.2)}
+.cont .p{font:400 15px 'JetBrains Mono',monospace;color:#ff7ac6}.cont h2{margin:10px 0 24px}
+.cont a{display:inline-block;margin:5px;padding:11px 22px;border:1px solid #ffffff33;border-radius:10px;color:#fdeaff;text-decoration:none;transition:.25s}
+.cont a:hover{background:#ff7ac6;color:#1d0f2e;border-color:#ff7ac6;transform:translateY(-3px)}
+footer{text-align:center;color:var(--mute);font:400 13px 'JetBrains Mono',monospace;padding:6px 0 36px}
+@media(max-width:780px){.hero,.about{grid-template-columns:1fr}.scene{height:380px}.orb{height:380px}.ring span{transform-style:preserve-3d}nav a{margin-left:14px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<canvas id="bg"></canvas>
+<nav><span class="logo">&lt;jerin ♡ /&gt;</span><div><a href="#about">About</a><a href="#edu">Education</a><a href="#win">Achievements</a><a href="#exp">Experience</a><a href="#stack">Stack</a><a href="#work">Projects</a><a href="#hi">Contact</a></div></nav>
+<div class="wrap">
+<header class="hero">
+<div>
+<span class="hi">&gt; Hello World, I'm</span>
+<h1>Mst Jerin <span>Chowdhury</span></h1>
+<div class="role" id="role"></div>
+<p class="sub">BSc student in Computer Science &amp; Engineering, currently studying at Dublin City University (DCU). I work on software engineering, AI and cybersecurity.</p>
+<a class="btn b1" href="#work">View Projects</a><a class="btn b2" href="#hi">Contact</a>
+</div>
+<div class="scene" id="scene">
+<span class="chip c-a">&lt;React /&gt;</span><span class="chip c-b">async/await</span><span class="chip c-c">git commit</span><span class="chip c-d">{ API }</span>
+<div class="stage" id="stage"><div class="term"><div class="bar"><i></i><i></i><i></i></div>
+<pre><span class="k">const</span> <span class="f">jerin</span> = {
+  name: <span class="s">"Jerin Chowdhury"</span>,
+  role: <span class="s">"BSc CSE Student"</span>,
+  school: <span class="s">"DCU Dublin"</span>,
+  loves: [<span class="s">"AI"</span>, <span class="s">"CTF"</span>,
+          <span class="s">"Forensics"</span>],
+  gamer: <span class="n">true</span>,
+  singer: <span class="n">true</span>,
+  openToWork: <span class="n">true</span>
+};</pre></div></div>
+</div>
+</header>
+
+<section id="about" class="rv"><p class="lab">// about</p><h2>About Me</h2>
+<div class="about"><div class="box"><p>I'm Jerin, currently studying at Dublin City University (DCU) in Ireland. From Cantonment Public School &amp; College (CPSCS) in Saidpur, through Notre Dame College and UIU, to Dublin today, I've tried to learn something new at every step. Outside of code, I'm a singer and a gamer girl.</p><p>I'm a multidisciplinary technology enthusiast with interests in software engineering, AI, cybersecurity, digital forensics and entrepreneurship. My journey began with cultural events and competitions in school and grew into programming, CTFs and AI projects.</p></div>
+<div class="box st"><div><b>3.94</b><span>UIU CGPA</span></div><div><b>5.00</b><span>School &amp; College GPA</span></div></div></div></section>
+
+<section id="edu" class="rv"><p class="lab">// education</p><h2>My Education</h2>
+<div class="tl">
+<div class="box"><small>School</small><h3>Cantonment Public School &amp; College (CPSCS)</h3><p>Saidpur, Bangladesh</p><span class="gpa">GPA 5.00</span></div>
+<div class="box"><small>College</small><h3>Notre Dame College</h3><p>Science Group · Dhaka, Bangladesh</p><span class="gpa">GPA 5.00</span></div>
+<div class="box"><small>University · 1 Year</small><h3>United International University (UIU)</h3><p>BSc in Computer Science &amp; Engineering (CSE) · Dhaka, Bangladesh</p><span class="gpa">CGPA 3.94 / 4.00</span></div>
+<div class="box now"><small>Current ✦</small><h3>Dublin City University (DCU)</h3><p>BSc in Computer Science &amp; Engineering · Dublin, Ireland</p><span class="gpa">Currently Studying</span></div>
+</div></section>
+
+<section id="win" class="rv"><p class="lab">// achievements</p><h2>My Achievements</h2><div class="mq"><div>🥇 University CTF · 🥇 HackerRank · 🥇 AI Team, Asia · 🥉 AI Team, World · 🥇 Debate · 🥇 Coding · 🥇 Badminton · 🥉 BD IT Sector · 5th CTF ✦ 🥇 University CTF · 🥇 HackerRank · 🥇 AI Team, Asia · 🥉 AI Team, World · 🥇 Debate · 🥇 Coding · 🥇 Badminton · 🥉 BD IT Sector · 5th CTF ✦ </div></div><div class="cats"><div class="box cat"><h3>🎤 School · Culture</h3><ul class="ls"><li>Developed a passion for <b>singing</b></li><li>Performed in numerous cultural events in <b>Saidpur</b></li><li>Received <b>medals</b> for cultural performances</li><li>Performed patriotic songs</li></ul></div><div class="box cat"><h3>🎓 College</h3><ul class="ls"><li>Continued <b>singing</b> at college too</li><li>🥇 <b>1st place</b>, debate competition</li><li>🥇 <b>1st place</b>, coding competition</li><li>Opportunity to join a <b>WHO</b>-related event</li><li>🥉 <b>3rd place</b>, Bangladesh IT sector competition</li></ul></div><div class="box cat"><h3>💻 University · Tech</h3><ul class="ls"><li>🥇 <b>1st place</b>, university-level CTF</li><li>🥇 <b>1st place</b>, HackerRank competition</li><li>AI project team: 🥉 <b>3rd globally</b> &amp; 🥇 <b>1st in Asia</b></li><li>Growing in competitive programming, AI &amp; cybersecurity</li></ul></div><div class="box cat"><h3>🛡 Cybersecurity · AI</h3><ul class="ls"><li><b>5th place</b>, CTF competition</li><li>🥉 <b>3rd place</b>, AI competition</li></ul></div><div class="box cat"><h3>🏸 Sports</h3><ul class="ls"><li>🥇 <b>1st place</b>, Bashundhara badminton competition, Bangladesh</li><li>Active in competitive extracurriculars alongside tech</li></ul></div></div></section>
+
+<section id="exp" class="rv"><p class="lab">// experience</p><h2>Experience &amp; Ventures</h2><div class="cats"><div class="box cat"><h3>🔐 Cybersecurity &amp; Forensics</h3><ul class="ls"><li>Internship associated with a <b>Bangladesh Army intelligence division</b></li><li>Medals &amp; certificates from the division on <b>four consecutive occasions</b></li><li>Joined a cybersecurity team as an <b>intern</b></li><li>Member &amp; intern of an <b>Ireland-based digital forensics team</b></li></ul></div><div class="box cat"><h3>🚀 Entrepreneurship</h3><ul class="ls"><li>Owner of the <b>OZO</b> brand</li><li>Involved in the ownership of <b>Bee Wallet</b></li><li>Member of a <b>software development company</b> team</li><li>Building tech-driven products, AI solutions &amp; software systems</li></ul></div></div></section>
+
+<section id="stack" class="rv"><p class="lab">// tech stack</p><h2>My Tech Stack</h2>
+<div class="orb"><div class="orbwrap"><div class="core"></div>
+<div class="ring"><span>Python</span><span>JavaScript</span><span>TypeScript</span><span>Java</span><span>C++</span><span>SQL</span></div>
+<div class="ring r2"><span>AI / ML</span><span>Flutter</span><span>Security</span><span>Git</span><span>Docker</span><span>Cloud</span></div></div></div>
+<div class="cats"><div class="box cat"><h3>Programming Languages<span>25</span></h3><div class="chips2"><i>Python</i><i>JavaScript</i><i>TypeScript</i><i>Java</i><i>C</i><i>C++</i><i>C#</i><i>Go (Golang)</i><i>Rust</i><i>PHP</i><i>Ruby</i><i>Perl</i><i>Kotlin</i><i>Swift</i><i>Dart</i><i>R</i><i>Scala</i><i>Julia</i><i>MATLAB</i><i>Lua</i><i>Elixir</i><i>Haskell</i><i>Objective-C</i><i>Solidity</i><i>Assembly</i></div></div><div class="box cat"><h3>Web & Scripting<span>5</span></h3><div class="chips2"><i>HTML5</i><i>CSS3</i><i>SQL</i><i>Bash / Shell</i><i>PowerShell</i></div></div><div class="box cat"><h3>AI & Machine Learning<span>11</span></h3><div class="chips2"><i>Machine Learning</i><i>Deep Learning</i><i>NLP</i><i>Computer Vision</i><i>Generative AI</i><i>LLMs</i><i>AI Agents</i><i>Data Science</i><i>TensorFlow</i><i>PyTorch</i><i>Scikit-learn</i></div></div><div class="box cat"><h3>App Development<span>6</span></h3><div class="chips2"><i>Flutter</i><i>React Native</i><i>Android</i><i>iOS</i><i>.NET</i><i>Unity</i></div></div><div class="box cat"><h3>Cybersecurity<span>8</span></h3><div class="chips2"><i>Ethical Hacking</i><i>Penetration Testing</i><i>Network Security</i><i>Web App Security</i><i>Malware Analysis</i><i>Digital Forensics</i><i>Vulnerability Assessment</i><i>Linux Security</i></div></div><div class="box cat"><h3>Software Engineering & Tools<span>15</span></h3><div class="chips2"><i>DSA</i><i>OOP</i><i>Software Architecture</i><i>Git</i><i>GitHub</i><i>REST APIs</i><i>Docker</i><i>Kubernetes</i><i>CI/CD</i><i>Automated Testing</i><i>Debugging</i><i>Database Management</i><i>Operating Systems</i><i>Computer Networking</i><i>Cloud Computing</i></div></div></div></section>
+
+<section id="fun" class="rv"><p class="lab">// beyond code</p><h2>Beyond the Code</h2>
+<div class="cats">
+<div class="box cat"><h3>🎤 Singer</h3><div class="eq"><i style="animation-delay:-0.1s;height:50%"></i><i style="animation-delay:-0.5s;height:90%"></i><i style="animation-delay:-0.3s;height:60%"></i><i style="animation-delay:-0.8s;height:100%"></i><i style="animation-delay:-0.2s;height:70%"></i><i style="animation-delay:-0.6s;height:45%"></i><i style="animation-delay:-0.4s;height:85%"></i></div><ul class="ls"><li>A love for <b>singing</b> since school</li><li>Took part in countless cultural events in <b>Saidpur</b></li><li>Performed <b>patriotic songs</b> and won medals</li><li>Kept singing in college too</li></ul></div>
+<div class="box cat"><h3>🎮 Gamer Girl</h3><p style="margin:0 0 14px;color:var(--mute);font-size:15px">Gaming is my other passion. Games I've played:</p><div class="chips2"><i>Free Fire</i><i>PUBG Mobile</i><i>Mobile Legends</i><i>Clash of Clans (COC)</i><i>eFootball</i></div></div>
+<div class="box cat"><h3>🏸 Sports</h3><ul class="ls"><li>🥇 <b>1st place</b>, Bashundhara badminton competition, Bangladesh</li><li>Active in <b>competitive sports</b> alongside technology</li></ul><div class="chips2" style="margin-top:14px"><i>Badminton</i></div></div>
+</div></section>
+
+<section id="int" class="rv"><p class="lab">// interests</p><h2>My Interests</h2><div class="box"><div class="chips2"><i>AI &amp; Machine Learning</i><i>Software Engineering</i><i>Application Development</i><i>Cybersecurity &amp; Ethical Hacking</i><i>Capture the Flag (CTF)</i><i>Digital Forensics</i><i>Competitive Programming</i><i>Entrepreneurship &amp; Product Dev</i><i>Music &amp; Cultural Activities</i><i>Singing</i><i>Gaming</i><i>Sports</i><i>Debate &amp; Public Speaking</i></div></div><div class="box mis"><small>// mission</small>My goal is to combine technology, creativity and entrepreneurship to build innovative solutions and impactful products in AI, software engineering and cybersecurity, and to contribute to the global technology ecosystem.</div></section>
+
+<section id="work" class="rv"><p class="lab">// projects &amp; ventures</p><h2>Projects &amp; Ventures</h2>
+<div class="cards"><div class="box card tilt"><div class="top">🎖</div><div class="in2"><h3>Intelligence Division, Bangladesh</h3><p>Internship with an intelligence division of the Bangladesh Army. Earned medals and certificates four times.</p><span class="tg">Internship · 4× Medals &amp; Certificates</span></div></div><div class="box card tilt"><div class="top">🪖</div><div class="in2"><h3>Army Cybersecurity</h3><p>Experience working on cybersecurity in the Bangladesh Army.</p><span class="tg">Cybersecurity · Bangladesh Army</span></div></div><div class="box card tilt"><div class="top">🏷</div><div class="in2"><h3>OZO</h3><p>Owner of my own brand, OZO. An entrepreneurial journey of building a brand and products.</p><span class="tg">Brand · Entrepreneurship</span><br><a class="lk" href="https://onlinezo.com" target="_blank" rel="noopener">onlinezo.com ↗</a></div></div><div class="box card tilt"><div class="top">👛</div><div class="in2"><h3>Bee Wallet</h3><p>Involved in the ownership of Bee Wallet, working on product and technology ideas.</p><span class="tg">Product · Ownership</span><br><a class="lk" href="https://t.me/beewalletmicrotask_bot?start=8968116078" target="_blank" rel="noopener">Open on Telegram ↗</a></div></div><div class="box card tilt"><div class="top">🤖</div><div class="in2"><h3>AI Team Project</h3><p>3rd place worldwide and 1st place in Asia with an AI team project.</p><span class="tg">🥉 World 3rd · 🥇 Asia 1st</span></div></div><div class="box card tilt"><div class="top">🧑‍💻</div><div class="in2"><h3>Software Company</h3><p>Team member at a software development company.</p><span class="tg">Software · Team</span></div></div><div class="box card tilt"><div class="top">🛡</div><div class="in2"><h3>Cybersecurity Team</h3><p>Worked as an intern on a cybersecurity team.</p><span class="tg">Cybersecurity · Internship</span></div></div><div class="box card tilt"><div class="top">🔍</div><div class="in2"><h3>Digital Forensics, Ireland</h3><p>Member and intern of an Ireland-based digital forensics team.</p><span class="tg">Forensics · Ireland</span></div></div></div></section>
+
+<section id="hi" style="padding-top:0"><div class="cont rv"><span class="p">$ ./contact --jerin</span><h2>Let's Build Something Together</h2>
+<div class="mailbox"><small>✉ Send an email</small><b>Send me a message</b>
+<input id="nm" placeholder="Your name"><textarea id="ms" rows="3" placeholder="Write your message"></textarea>
+<div class="mrow"><a href="#" id="send">Send Mail</a></div></div></div></section>
+<footer>© 2026 MST JERIN CHOWDHURY · made with ♡ &amp; code</footer>
+</div>
+<script>
+(function(){
+var el=document.getElementById('role'),w=['BSc CSE Student','Developer','Cybersecurity Enthusiast','AI Explorer','Gamer Girl','Singer','Badminton Player','Entrepreneur'],i=0,j=0,d=0;
+function ty(){var t=w[i];j+=d?-1:1;el.textContent='> '+t.slice(0,j);var s=d?40:90;if(!d&&j==t.length){d=1;s=1400}else if(d&&j==0){d=0;i=(i+1)%w.length;s=300}setTimeout(ty,s)}ty();
+var sc=document.getElementById('scene'),st=document.getElementById('stage');
+sc.addEventListener('pointermove',function(e){var r=sc.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;st.style.transform='rotateY('+(x*36)+'deg) rotateX('+(-y*30)+'deg)'});
+sc.addEventListener('pointerleave',function(){st.style.transform=''});
+document.querySelectorAll('.tilt').forEach(function(c){c.addEventListener('pointermove',function(e){var r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;c.style.transform='rotateY('+(x*16)+'deg) rotateX('+(-y*16)+'deg)'});c.addEventListener('pointerleave',function(){c.style.transform=''})});
+var io=new IntersectionObserver(function(a){a.forEach(function(e){if(e.isIntersecting)e.target.classList.add('in')})},{threshold:.12});
+document.querySelectorAll('.rv').forEach(function(n){io.observe(n)});
+var cv=document.getElementById('bg'),cx=cv.getContext('2d'),P=[],mx=0,my=0,W,H;
+function rs(){W=cv.width=innerWidth;H=cv.height=innerHeight;P=[];for(var k=0;k<Math.min(90,W/12);k++)P.push({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.3,vy:(Math.random()-.5)*.3})}
+rs();addEventListener('resize',rs);addEventListener('pointermove',function(e){mx=e.clientX;my=e.clientY});
+function dr(){var c=getComputedStyle(document.documentElement).getPropertyValue('--dot').trim()||'34,211,238';cx.clearRect(0,0,W,H);
+for(var a=0;a<P.length;a++){var p=P[a];p.x+=p.vx;p.y+=p.vy;if(p.x<0||p.x>W)p.vx*=-1;if(p.y<0||p.y>H)p.vy*=-1;
+cx.fillStyle='rgba('+c+',.7)';cx.beginPath();cx.arc(p.x,p.y,1.6,0,6.3);cx.fill();
+for(var b=a+1;b<P.length;b++){var q=P[b],dx=p.x-q.x,dy=p.y-q.y,dd=dx*dx+dy*dy;if(dd<14000){cx.strokeStyle='rgba('+c+','+(.22*(1-dd/14000))+')';cx.beginPath();cx.moveTo(p.x,p.y);cx.lineTo(q.x,q.y);cx.stroke()}}
+var mdx=p.x-mx,mdy=p.y-my,md=mdx*mdx+mdy*mdy;if(md<22000){cx.strokeStyle='rgba('+c+','+(.5*(1-md/22000))+')';cx.beginPath();cx.moveTo(p.x,p.y);cx.lineTo(mx,my);cx.stroke()}}
+requestAnimationFrame(dr)}dr();
+})();
+</script>
+<script>
+(function(){var E=['admin','jrinchowdhury.world'].join('@'),sd=document.getElementById('send');
+sd.addEventListener('click',function(){var n=document.getElementById('nm').value,m=document.getElementById('ms').value;sd.href='mailto:'+E+'?subject='+encodeURIComponent('Hello from '+(n||'a visitor'))+'&body='+encodeURIComponent(m)});})();
+</script>
+</body>
+</html>
